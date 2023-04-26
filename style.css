@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Montserrat";
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1, h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+p{
+    font-size: 18px;
+}
+/*Deadline Style*/
+.deadline{
+    display: flex;
+    justify-content: space-around;
+}
+.deadline div{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px red;
+}
+span.point{
+    width: 20px;
+    height: 100px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(102, 0, 255);
+}
