@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Box Zone</title>
 </head>
 <body>
-    <header>
+    <header class="hide">
         <a href=""><img src="./img/LogoBoxWhite.png"  class="logo"  alt=""></a>
     </header>
-    <section class="content">
+    <section class="content hide">
         <div class="disc">
             <h1>Em Construção</h1>
             <p>Nosso site está em construção, <br> mas estamos prontos para começar!<br> Estamos preparando algo incrivel e <br>emocionante para você.</p>
@@ -26,7 +28,12 @@
         </div>
         <div class="imgUnder">
             <img src="./img/banner.png" alt="">
+            <div class="percent animate__animated animate__lightSpeedInLeft animate__delay-5s">
+            </div>
         </div>
     </section>
+    <div class="loading animate__animated animate__fadeOut animate__delay-3s">
+        <img src="./img/LogoBox.png" class="animate__animated animate__bounce" alt="">
+    </div>
 </body>
 </html>
