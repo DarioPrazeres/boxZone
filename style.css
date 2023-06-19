@@ -68,11 +68,11 @@ header img{
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
 }
 .imgUnder img{
-    width: 90%;
-    height: 60%;
+    height: 450px;
 }
 .social{
    position: absolute;
@@ -90,6 +90,7 @@ header img{
     top: 51.5%;
     border-radius: 11px;
     background-color: #ffcc00;
+    display: none;
 }
 
 /*---------------Loading Page -----------------*/
@@ -105,6 +106,5 @@ header img{
 }
 
 .loading img{
-    width: 70%;
-    height: 700px;
+    height: 500px;
 }
