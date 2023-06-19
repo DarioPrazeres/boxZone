@@ -86,11 +86,10 @@ header img{
     width: calc(360px/2);
     height: 28px;
     position: absolute;
-    left: 27%;
+    left: 32%;
     top: 51.5%;
     border-radius: 11px;
     background-color: #ffcc00;
-    display: none;
 }
 
 /*---------------Loading Page -----------------*/
