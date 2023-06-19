@@ -12,18 +12,23 @@
 </head>
 <body>
     <header class="hide">
-        <a href=""><img src="./img/LogoBoxWhite.png"  class="logo"  alt=""></a>
+        <a href="./index.html" class="logo"><img src="./img/LogoBoxWhite.png"  class="logo"  alt=""></a>
     </header>
     <section class="content hide">
         <div class="disc">
             <h1>Em Construção</h1>
             <p>Nosso site está em construção, <br> mas estamos prontos para começar!<br> Estamos preparando algo incrivel e <br>emocionante para você.</p>
-            <button class="btn">Fale Conosco</button>
+            <a href="https://wa.me/244927046257" class="btn">Fale Conosco</a>
             <div class="social">
-                <img src="./img/social/facebook.png" alt="" class="network">
-                <img src="./img/social/instagram.png" alt="" class="network">
-                <img src="./img/social/linkedin.png" alt="" class="network">
-                <img src="" alt="" class="network">
+                <a href="https://www.facebook.com/people/Box-Zone/100091415508395/" target="_blank">
+                    <img src="./img/social/facebook.png" alt="" class="network">
+                </a>
+                <a href="https://www.linkedin.com/company/box-zone/" target="_blank">
+                    <img src="./img/social/linkedin.png" alt="" class="network">
+                </a>     
+                <a href="" target="_blank">
+                    <img src="./img/social/instagram.png" alt="" class="network" > 
+                </a>    
             </div>
         </div>
         <div class="imgUnder">
@@ -35,5 +40,12 @@
     <div class="loading animate__animated animate__fadeOut animate__delay-2s">
         <img src="./img/LogoBox.png" class="animate__animated animate__bounce" alt="">
     </div>
+    <script>
+        const loading = document.querySelector('div.loading');
+        setTimeout(hideLoading, 3000);
+        function hideLoading(){
+            loading.style.display= 'none';
+        }
+    </script>
 </body>
 </html>
