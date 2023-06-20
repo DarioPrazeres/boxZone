@@ -38,7 +38,6 @@ header img{
     padding: 50px;    
     width: 30%;
     height: 65%;
-    position: relative;
 }
 .disc h1, .disc p{
     margin: 3px 0px 25px 0px;
@@ -69,7 +68,6 @@ header img{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 .imgUnder img{
     height: 450px;
@@ -84,15 +82,6 @@ header img{
 }
 a{
         text-decoration: none;
-}
-.percent{
-    width: calc(360px/2);
-    height: 28px;
-    position: absolute;
-    left: 32%;
-    top: 51.5%;
-    border-radius: 11px;
-    background-color: #ffcc00;
 }
 
 /*---------------Loading Page -----------------*/
@@ -109,4 +98,83 @@ a{
 
 .loading img{
     height: 500px;
+}
+/*-----------------Table version----------------**/
+@media (max-width: 1280px) {
+    .imgUnder img{
+        height: 300px;
+    }
+}
+@media (max-width: 1180px) {
+    .imgUnder img{
+        height: 280px;
+    }
+    .disc{
+        width: 40%;
+        align-self: center;
+        height: 400px;
+        position: relative;
+    }
+    .social{
+        bottom: 30px;
+     }
+}
+@media (max-width: 1024px) {
+    .disc{
+        height: 300px;
+    }
+    .imgUnder img{
+        height: 200px;
+    }
+}
+/*-----------------Mobile version ------------*/
+@media (max-width: 700px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        width: 100vw;
+    }
+    header{
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    .logo{
+        width: auto;
+        height: 180px;
+    }
+    .content{
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .content div{
+        margin: 0px;
+    }
+    .disc{    
+        width: 70%;
+        height: 450px;
+        height: auto;
+        
+    }
+    .social{
+        position: relative;
+        bottom: -40px;
+     }
+    .disc h1, .disc p{
+        margin: 3px 0px 25px 0px;
+    }
+    .imgUnder{
+        padding: 0px;
+        width: 98%;
+        justify-content: center;
+    }
+    .imgUnder img{
+        height: 150px;
+        margin-left: 0px;
+    }
+    .loading{
+        height: 130vh;
+    }
 }
